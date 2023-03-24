@@ -16,8 +16,6 @@ if(POLICY CMP0072)
   cmake_policy(SET CMP0072 NEW)
 endif()
 
-project(WebP C)
-
 # Options for coder / decoder executables.
 if(BUILD_SHARED_LIBS)
   set(WEBP_LINK_STATIC_DEFAULT OFF)
